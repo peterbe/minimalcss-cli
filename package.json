@@ -22,10 +22,10 @@
     "url": "https://github.com/peterbe/minimalcss-cli/issues"
   },
   "dependencies": {
-    "filesize": "^3.5.11",
-    "minimist": "^1.2.0",
-    "puppeteer": "^1.2.0",
-    "minimalcss": "^0.7.5"
+    "filesize": "3.6.0",
+    "minimist": "1.2.0",
+    "puppeteer": "1.2.0",
+    "minimalcss": "0.7.5"
   },
   "devDependencies": {
     "jest": "22.4.3",
