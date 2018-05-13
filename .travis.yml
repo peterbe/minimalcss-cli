@@ -1,14 +1,12 @@
 sudo: required
 language: node_js
 node_js:
-  stable
-services:
-  - docker
+  - 8
+  - 10
+cache: yarn
 branches:
   only:
   - master
-before_install:
- - docker build -t minimalcss:tests .
 script:
-  - docker container run -it minimalcss:tests yarn lintcheck
-  - docker container run -it --env CI=$CI minimalcss:tests yarn test
+  - yarn lintcheck
+  - yarn test
