@@ -1,7 +1,7 @@
 # minimalcss
 
-[![Build Status](https://travis-ci.org/peterbe/minimalcss-cli.svg?branch=master)](https://travis-ci.org/peterbe/minimalcss)
-[![NPM version](https://img.shields.io/npm/v/minimalcss-cli.svg)](https://www.npmjs.com/package/minimalcss)
+[![Build Status](https://travis-ci.org/peterbe/minimalcss-cli.svg?branch=master)](https://travis-ci.org/peterbe/minimalcss-cli)
+[![NPM version](https://img.shields.io/npm/v/minimalcss-cli.svg)](https://www.npmjs.com/package/minimalcss-cli)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](#badge)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovateapp.com/)
 
