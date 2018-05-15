@@ -18,11 +18,11 @@ function assertStatus(spawned) {
   }
 }
 
-const version = spawn('./bin/minimalcss.js', ['--version']);
+const version = spawn('./cli.js', ['--version']);
 assertStatus(version);
 const versionNumber = version.stdout.toString();
 assert(!/[^\d\.]/.test(versionNumber.trim()), 'Not a version number');
-const versionNumber2 = spawn('./bin/minimalcss.js', ['-v']).stdout.toString();
+const versionNumber2 = spawn('./cli.js', ['-v']).stdout.toString();
 assert(versionNumber2 === versionNumber, 'alias not working');
 
 function openUrl(url, ...options) {
@@ -32,7 +32,7 @@ function openUrl(url, ...options) {
   }
   options.push(url);
   const t0 = new Date();
-  const opened = spawn('./bin/minimalcss.js', options);
+  const opened = spawn('./cli.js', options);
   assertStatus(opened);
   const t1 = new Date();
   const t = (t1 - t0) / 1000;
