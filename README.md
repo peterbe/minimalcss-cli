@@ -9,24 +9,24 @@
 
 Install:
 
-```
+```bash
 yarn add minimalcss-cli --dev
 ```
 
 You can install it globally if you like:
 
-```
+```bash
 yarn global add minimalcss-cli
 ```
 
-```
+```bash
 npm install [--save-dev|--global] minimalcss-cli
 ```
 
 Now you can run it:
 
-```shell
-$ ./node_modules/.bin/minimalcss https://example.com/ https://example.com/aboutus > minimal.min.css
+```bash
+./node_modules/.bin/minimalcss https://example.com/ https://example.com/aboutus > minimal.min.css
 ```
 
 ## Help needed
@@ -49,7 +49,7 @@ yarn
 
 To run the tests:
 
-```sh
+```bash
 yarn test
 ```
 
@@ -60,7 +60,9 @@ to the the `.prettierrc` file in the root of the project.
 
 To check that all your code conforms, run:
 
-    yarn lintcheck
+```bash
+yarn lintcheck
+```
 
 ## License
 
