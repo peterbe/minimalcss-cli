@@ -24,7 +24,7 @@
   "dependencies": {
     "filesize": "4.1.2",
     "minimalcss": "0.8.2",
-    "minimist": "1.2.0",
+    "minimist": "1.2.2",
     "puppeteer": "1.18.1"
   },
   "devDependencies": {
